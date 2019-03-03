@@ -1,0 +1,48 @@
+
+
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+h1 {
+	color: blue;
+	font-family: verdana;
+	font-size: 300%;
+}
+
+p  {
+	color: red;
+	font-family: courier;
+	font-size: 160%;
+}
+
+#sizeBig {
+  	font-size: 30px;
+}
+
+td {
+	border: 2px solid #ffffff;
+	text-align: left;
+	padding: 5px;
+}
+
+.classA {
+	color: green;
+	background: white;
+}
+
+@media only screen and (max-width: 600px) {
+	#sizeBig {
+	  	font-size: 18px;
+	}
+}
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  background-color: $primary-color;
+}
